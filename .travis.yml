@@ -1,0 +1,8 @@
+sudo: required
+
+services:
+    - docker
+
+script: 
+    - docker build -t mack1995/node2 .
+    - docker images mack1995/node2
